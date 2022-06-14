@@ -185,29 +185,3 @@ class ConcentratedModule(nn.Module):
             elif isinstance(m, nn.Linear):
                 nn.init.xavier_normal_(m.weight.data)
                 m.bias.data.fill_(0)
-
-
-
-
-#########################计算模型参数量###############################
-def calcu_param(net):
-    params = list(net.parameters())
-    k = 0
-    for i in params:
-        l = 1
-        #print("该层的结构：" + str(list(i.size())))
-        for j in i.size():
-            l *= j
-        #print("该层参数和：" + str(l))
-        k = k + l
-    print("总参数数量和：" + str(k))
-
-
-if __name__ == '__main__':
-    
-    net = Model()
-    a = torch.randn((1, 3, 480, 640))
-    b = torch.randn((1, 3, 240, 320))
-    output = net(a, b)
-    print(output.size())
-    calcu_param(net)

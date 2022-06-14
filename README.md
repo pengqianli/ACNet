@@ -28,8 +28,8 @@ by Pengqian Li, Xiaofen Xing, Xiangmin Xu, Bolun Cai, Jun Cheng
 
 ## Saliency maps & Trained model
 
-- saliency maps: [Baidu](todo)
-- trained model: [Baidu](todo)
+- saliency maps：[BaiduPan: i7is](https://pan.baidu.com/s/1mnVy-3A4ZMjTyuEP1HhKVA).
+- trained model：[BaiduPan: dlwx](https://pan.baidu.com/s/1UbrmlRqYYu3_PU_JUnsQeA).
 
 ## Citation
 
